@@ -9,23 +9,23 @@ Reference Section of Sails.js documentation
 
 ```
  |
+ |- Command-Line (sails)
+ |
+ |- Browser SDK (sails.io.js)
+ |
  |- Usage
    |
    |- Request (req)
    |
    |- Response (res)
    |
-   |- Config (sails.config)
+   |- Configuration (sails.config)
    |
    |- Model (sails.models)
    |
    |- Sockets (sails.sockets)
    |
-   |- Sails CLI
-   |
    |- Blueprint API
-   |
-   |- Browser SDK (sails.io.js)
 
  |
  |- Concepts
@@ -84,6 +84,26 @@ Reference Section of Sails.js documentation
     |- Globals
     |
     |- .sailsrc
+    |
+    |- Core (todo)
+       |- Stability Index
+       |- Modules
+         |- skipper
+         |- skipper-adapter-tests
+         |- waterline
+         |- waterline-adapter-tests
+         |- waterline-criteria
+         |- waterline-schema
+         |- waterline-cursor
+         |- waterline-error
+         |- waterline2
+         |- sails
+         |- sails-generate
+         |- sails-build-dictionary
+         |- include-all
+         |- captains-log
+    |
+    |- Contributing (todo- sort of-- migrate the stuff over and have the official contribution guide live here)
 
 
 ```
