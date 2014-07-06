@@ -78,30 +78,48 @@ Reference Section of Sails.js documentation
  |- Advanced
     |
     |- Plugins
+       |- Adapters
+       |- Generators
+          |- sails-generate
+       |- Hooks
     |
-    |- Programmatic Usage
+    |- Status (todo)
+       |- Test Coverage
+       |- Request Interpreter (Protocol Support)
+       |- Adapters (Database Support)
+       |- View Engine Support
+       |- Session Store Support
     |
-    |- Globals
+    |- Programmatic Usage (todo)
     |
     |- .sailsrc
     |
-    |- Core (todo)
+    |- How Sails Works (todo, but have parts already in core readmes)
        |- Stability Index
-       |- Modules
-         |- skipper
-         |- skipper-adapter-tests
-         |- waterline
-         |- waterline-adapter-tests
-         |- waterline-criteria
-         |- waterline-schema
-         |- waterline-cursor
-         |- waterline-error
-         |- waterline2
-         |- sails
-         |- sails-generate
-         |- sails-build-dictionary
-         |- include-all
-         |- captains-log
+       |- Router
+       |- Middleware Registry
+       |- sails.load()/sails.lift()
+       |- Hook Loader
+       |- Events
+       |- Globals
+       |- Core Hooks
+         |- moduleloader
+            |- sails-build-dictionary
+            |- include-all
+         |- orm
+            |- waterline
+            |- waterline
+            |- waterline-adapter-tests
+            |- waterline-criteria
+            |- waterline-schema
+            |- waterline-cursor
+            |- waterline-error
+            |- waterline2
+         |- http
+            |- skipper
+            |- skipper-adapter-tests
+         |- logger
+            |- captains-log
     |
     |- Contributing (todo- sort of-- migrate the stuff over and have the official contribution guide live here)
 
